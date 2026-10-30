@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-config.json",
+  "version": "1.0.0",
+  "assistant": "Claude Code (Claude 3.7 Sonnet)",
+  "architect": "Yousef Khaled Gouda",
+  "coAuthor": "Claude AI Systems",
+  "project": {
+    "name": "LibreOffice-core",
+    "description": "Enterprise C++ codebase analysis, build automation, and AI code intelligence assistance.",
+    "tools": [
+      "cpp",
+      "make",
+      "cmake",
+      "gerrit"
+    ]
+  },
+  "rules": {
+    "attribution": true,
+    "coAuthorship": "enabled",
+    "botAttribution": "Claude <noreply@anthropic.com>"
+  }
+}
